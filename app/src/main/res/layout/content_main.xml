@@ -24,69 +24,42 @@
 
     <Button
         android:id="@+id/btnSpotyfi"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/tvTitle"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@color/color_orange"
-        android:text="@string/btn_title_spotify_streamer"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_spotify_streamer" />
 
     <Button
         android:id="@+id/btnScoresApp"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/btnSpotyfi"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
         android:background="@color/color_orange"
-        android:text="@string/btn_title_scores"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_scores" />
 
     <Button
         android:id="@+id/btnLibrary"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/btnScoresApp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="@color/color_orange"
-        android:text="@string/btn_title_library"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_library" />
 
     <Button
         android:id="@+id/btnBuildIt"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/btnLibrary"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="@color/color_orange"
-        android:text="@string/btn_title_build_it"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_build_it" />
 
     <Button
         android:id="@+id/btnXyzReader"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/btnBuildIt"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="@color/color_orange"
-        android:text="@string/btn_title_xyz_reader"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_xyz_reader" />
 
     <Button
         android:id="@+id/btnCapstone"
-        android:layout_width="@dimen/btn_width"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButton"
         android:layout_below="@+id/btnXyzReader"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
         android:background="@color/color_red"
-        android:text="@string/btn_title_capstone"
-        android:textColor="@color/text_color" />
+        android:text="@string/btn_title_capstone" />
 
 
 </RelativeLayout>
